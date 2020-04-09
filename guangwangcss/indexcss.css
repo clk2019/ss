@@ -1,0 +1,359 @@
+@charset "utf-8";
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form,ul,li{margin:0;}
+ul{padding:0;}
+ol,li{margin:0; padding:0;}
+table{border-collapse: collapse; border-spacing: 0;}
+fieldset, img{border: 0;}
+address, caption, cite, code, dfn, em, strong, th, var,i{font-style: normal; font-weight: normal;}
+ol, ul {list-style: none;}
+del, ins{text-decoration: none;}
+caption, th{text-align: left;}
+h1, h2, h3, h4, h5, h6{font-size: 100%; font-weight: normal;}
+input, button, textarea, select{font-size: 100%;}
+select {background: #fff;}
+q:before, q:after{content: '';}
+acronym{border: 0; font-variant: normal;}
+sub, sup{font-size: 75%; line-height: 0; position: relative;}
+sub{top: -0.5em;}
+sup{bottom: -0.25em;}
+a {color: #000;}
+
+html{font-size: 62.5%; height:100%}
+body{width:auto;color: #484848; height:100%}
+img{width: 100%; display: inline-block;}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.fl{float: left;}
+.fr{float: right;}
+.news_center{margin-top: 66px;}
+
+/******form*****/
+.publicform .ivu-form-item-content{margin-left: 130px!important;}
+.ivu-btn-primary{background-color: #1e9fff; border-color: #1e9fff;}
+
+.ivu-tabs-nav .ivu-tabs-tab{padding: 10px 16px;}
+.tradeReason .ivu-modal-footer{border:0px!important}
+
+.index .ivu-select-dropdown{top:30px!important; z-index: 999; }
+.index-icon{width: 26px; vertical-align: middle;  margin-top: -2px;}
+.index-input input{background: #EAF7FE; border: 0px; color: #0099FF;}
+.index-input .ivu-input[disabled], fieldset[disabled] .ivu-input{background: #EAF7FE; border: 0px; color: #0099FF;}
+.index-input  input::-webkit-input-placeholder{ color: #0099FF;}
+.index-span span{background: #f5f5f5;color: #999; padding: 8px 22px;; border-radius: 17px; margin-right:10px; cursor: pointer;}
+.index-span span.active{background: #0099FF;color: #fff; padding: 8px 22px;; border-radius: 17px; margin-right: 10px;}
+.ivu-input-icon{color: #0099FF; font-size: 20px;}
+.ivu-table-filter-list .ivu-table-filter-select-item-selected, .ivu-table-filter-list .ivu-table-filter-select-item-selected:hover{background: #f3f3f3; color: #1e9fff}
+.demandeditdepartment .ivu-form-item-content{margin-left:150px!important;}
+.index-form .ivu-input{border-radius: 20px!important}
+.index-zixun .ivu-input{height: 39px!important; padding-left: 42px;}
+.ivu-notice{right: 44%!important}
+.ivu-notice-notice{top: 200px; background: rgba(132, 132, 133, 0.6)!important; position: relative!important; font-size: 17px!important; color: #fff!important;}
+.ivu-notice-with-info:after{background: none}
+.ivu-notice-desc{font-size: 17px; color: #fff;}
+.ivu-icon-information-circled:before{display: none;}
+
+
+
+/*****header******/
+
+.indexwarp{width: 100%;}
+
+a{color: #fff; text-decoration: none}
+#header {position:relative;width:100%;min-width:1190px;box-shadow:0 0 20px 0 rgba(0,0,0,.07);left:0;top:0;z-index:2;background:#fff}
+#header .guangwanglogo {display:inline-block;float:left;margin-right:95px}
+#firstHeader .header-top {background-color:#fff;height:45px;padding:0 15px;line-height:45px}
+.header-top-list {overflow:hidden}
+.header-top-list a {float:left;margin-right:10px;display:inline-block}
+#header .guangwanglogo img,.header-top-list a img {vertical-align:middle}
+#header .guangwanglogo img {display:inline-block}
+#header .header_con_wrapper {background:#fff}
+#header .header_con {width:1190px;height:75px;line-height:75px;margin:0 auto}
+#header .header_con .guangwanglogo {width:310px;height:75px;float:left}
+#header .nav-warp {float:right}
+#header #nav li {position:relative;display:inline-block;text-align:center;margin-right:60px;float:right;font-family:MicrosoftYaHei}
+#header #nav li a {display:block;height:75px;line-height:75px;text-align:center;text-decoration:none;font-size:14px;color:#666}
+#header #nav li a.active,#header #nav li a:hover {color:#eb615a}
+#header .sub-wrap {position:absolute;display:none;border-radius:2px;background:#fff;padding-bottom:10px;z-index:9999999;top:0;right:-30px;width:116px}
+#nav .new_user-center:hover .sub-wrap {display:block}
+#header .btnBox {float:right}
+#header .s_button {width:70px;height:28px;line-height:28px}
+#header .s_button:hover {box-shadow:0 5px 5px rgba(255,106,109,.3)}
+#header .loginBtn {border:1px solid #e9615a!important;margin-right:10px;box-sizing:border-box;width:70px;height:28px;line-height:28px}
+#header .loginBtn:hover {box-shadow:0 5px 5px rgba(255,106,109,.3)}
+#firstHeader {position:relative;width:100%;min-width:1190px;left:0;top:0;z-index:2;}
+#firstHeader .guangwanglogo {display:inline-block;float:left;margin-right:95px}
+#firstHeader .guangwanglogo img {display:inline-block;vertical-align:middle}
+#firstHeader .header_con {width:1190px;margin:0 auto}
+#firstHeader .header_con .guangwanglogo {width:160px;height:55px;float:left; padding-top: 9px;}
+#firstHeader .nav-warp {float:left; height: 65px; line-height: 65px;}
+#firstHeader #nav li {position:relative;display:inline-block;text-align:center; font-size: 16px; color: #fff; margin:0px 35px;float:right;font-family:MicrosoftYaHei Bold}
+#firstHeader #nav li a {display:block;text-align:center;text-decoration:none;font-size:16px;color:#fff;font-family:"微软雅黑"}
+#firstHeader #nav li a.active,#firstHeader #nav li a:hover {color:#0066FF;}
+#firstHeader #nav li a.active,#firstHeader #nav li a:hover{border-bottom: solid #0066FF 2px;}
+#firstHeader .btnBox {float:right}
+#firstHeader .s_button {width:85px;height:30px;line-height:28px; padding: 7px 24px;}
+#firstHeader .s_button:hover {box-shadow:0 5px 20px rgba(0,0,0,.1)}
+#firstHeader .loginBtn {box-sizing:border-box;color:#fff;height:30px;line-height:28px;background:#0066FF; padding: 6px 15px; border-radius: 30px;}
+#firstHeader .loginBtn:hover {box-shadow:0 5px 20px rgba(0,0,0,.1)}
+.mt19{margin-top: 19px;}
+
+.indexheader1{background:#101a35;}
+.indexheader1 i{background: url(../guanwangimg/logo.png) no-repeat; background-size:contain; width: 170px; height: 50px; display: inline-block;}
+.indexheader2 i{background: url(../guanwangimg/logo.png) no-repeat; background-size:contain; width: 170px; height: 50px; display: inline-block;}
+.indexheader2{background:#101a35;}
+.indexheader2 #firstHeader #nav li a {display:block;text-align:center;text-decoration:none;color:#fff;font-family:"微软雅黑"}
+.indexheader2 #firstHeader #nav li a.active,#firstHeader #nav li a:hover {color:#0066FF;}
+.indexheader2 a{color: #fff}
+.indexheader2 .btnBox a.s_button{color: #fff!important}
+.indexheader1 .btnBox a:hover,.indexheader1 .btnBox a:visited,.indexheader1 .btnBox a:active,.indexheader1 .btnBox a{color: #fff;}
+.indexheader2 .btnBox a:hover,.indexheader2 .btnBox a:visited,.indexheader2 .btnBox a:active,.indexheader2 .btnBox a{color: #fff;}
+
+.navbar{position:relative;min-height:50rem;margin-bottom:20rem;border:1rem solid transparent}
+@media(min-width:768rem){.navbar{border-radius:4rem}}@media(min-width:768rem){.navbar-header{float:left}}.navbar-collapse{padding-right:15px;padding-left:15px;overflow-x:visible;-webkit-overflow-scrolling:touch;border-top:1px solid transparent;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.1);box-shadow:inset 0 1px 0 rgba(255,255,255,.1)}
+.navbar-collapse.in{overflow-y:auto}
+@media(min-width:768px){.navbar-collapse{width:auto;border-top:0;-webkit-box-shadow:none;box-shadow:none}
+.navbar-collapse.collapse{display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important}
+.navbar-collapse.in{overflow-y:visible}
+.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse,.navbar-static-top .navbar-collapse{padding-right:0;padding-left:0}}.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse{max-height:340px}
+@media(max-device-width:480px) and (orientation:landscape){.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse{max-height:200px}}.container-fluid>.navbar-collapse,.container-fluid>.navbar-header,.container>.navbar-collapse,.container>.navbar-header{margin-right:-15px;margin-left:-15px}
+@media(min-width:768px){.container-fluid>.navbar-collapse,.container-fluid>.navbar-header,.container>.navbar-collapse,.container>.navbar-header{margin-right:0;margin-left:0}}.navbar-static-top{z-index:1000;border-width:0 0 1px}
+@media(min-width:768px){.navbar-static-top{border-radius:0}}.navbar-fixed-bottom,.navbar-fixed-top{position:fixed;right:0;left:0;z-index:1030}
+@media(min-width:768px){.navbar-fixed-bottom,.navbar-fixed-top{border-radius:0}}.navbar-fixed-top{top:0;border-width:0 0 1px}
+.navbar-fixed-bottom{bottom:0;margin-bottom:0;border-width:1px 0 0}
+
+/*******内容*******/
+.news_center {width:100%;min-width:1190px;}
+.news_box {width:1190px;margin:auto}
+.indexbanner{width: 100%; min-width: 1190px; height: 519px!important; background: url("../guanwangimg/ch/banner.jpg") no-repeat center; display: inline-block;}
+.indexbannernav {width:1190px;margin:auto;}
+.indexbannerform{background: #fff; border-radius: 10px; padding: 33px 50px 10px; box-shadow:0px 0px 20px 0px rgba(9,9,29,0.15); position: absolute; top: 520px; width: 1190px;}
+.index-button{background: #0066FF; border-radius: 18px; padding: 5px 15px!important; color: #fff}
+
+.advservicenav {width:1190px;margin:auto;position: relative;}
+.advservicenav-title{color: #333; font-size: 24px; font-weight: bold;}
+.advservicenav-futitle{color: #666; font-size: 16px;}
+.advservice-tab{margin-top: 60px;}
+.advservice-tab li{float: left; background: #989898; color: #333; border-radius: 30px; margin: 0px 10px; padding: 8px 17px; cursor: pointer;}
+.advservice-tab li:first-child{margin-left:0px;} 
+.advservice-tab li.active{background: #0066FF; color: #fff}
+.advservice-inf{float: left; width: 400px; margin-top: 80px;}
+.advservice-inf h1{color: #333; font-size:16px; font-weight: 400;  margin-top: 15px;}
+.advservice-inf p{color: #666; font-size:16px; font-weight: 400; margin-top: 15px;}
+.advservice-img{position: absolute; right: 10px; top: 30px;}
+
+.product-tab{margin-top: 60px;margin: auto; display: table!important;}
+.product-tab li{float: left; background: #fff; color: #333; padding: 8px 54px; border: solid 1px #333; font-size: 18px; cursor: pointer; }
+.product-tab li:first-child{margin-left:0px;} 
+.product-tab li.active{background: #101a35; color: #fff}
+
+.tfteam_01{width: 100%;min-width: 1190px;height: 664px!important;background: url(../guanwangimg/ch/tfteam_01.png) no-repeat 50%;display: inline-block; margin-top: 0px;}
+.dmp_01{width: 100%;min-width: 1190px;height: 484px!important;background: url(../guanwangimg/ch/dmp_01.png) no-repeat 50%;display: inline-block; margin-top: 0px;}
+
+
+
+.partner_bg{background: #f5f5f5}
+.our_advantage {width:100%; min-width: 1190px;}
+.advantage_container {width:1190px;margin:auto;}
+.our_box {font-size:44px;margin:auto;margin-top:0px; text-align: center;}
+.des_box,.our_box {font-family:Source-Han-Light;color:#333}
+.des_box {font-size:16px;margin:auto;width:304px;margin-top:7px}
+.item_container {width:1188px;margin:auto;}
+.index-case-warp{ width: 198px!important; float: left;  height: 112px;  margin: 15px 0px;}
+.index-case{margin: 20px 10px; width:170px!important; float:none!important; margin-bottom: 50px;}
+.index-case-warp img{width: auto!important;}
+
+
+.index-cp-warp{ width: 255px!important; float: left;  margin: 15px 20px;}
+.index-cp{margin: 20px 10px; width:170px!important; float:none!important; margin-bottom: 50px;}
+.index-cp-warp img{width: 255px!important;}
+
+.servicbanner{width: 100%;min-width: 1190px;height: 523px!important;background: url(../guanwangimg/ch/servicbanner.jpg)  50%;display: inline-block;}
+.serveadv1{width: 100%; min-width: 1190px; height: 623px!important; background: url("../guanwangimg/ch/serveadv1.jpg") no-repeat center; display: inline-block;}
+.servicebg{width: 100%; min-width: 1190px; height: 600px!important; background: url("../guanwangimg/ch/servicebg.png") no-repeat center; display: inline-block;}
+.service1{width: 100%; min-width: 1190px; height: 450px!important; background: url("../guanwangimg/ch/service1.png") no-repeat center; display: inline-block;}
+.service2{width: 100%; min-width: 1190px; height: 450px!important; background: url("../guanwangimg/ch/service2.png") no-repeat center; display: inline-block;}
+.dataservicebanner{width: 100%; min-width: 1190px; height: 340px!important; background: url("../guanwangimg/ch/dataservicebanner.jpg") no-repeat center; display: inline-block;}
+.dataservice1{width: 100%; min-width: 1190px; height: 450px!important; background: url("../guanwangimg/ch/dataservice1.png") no-repeat center; display: inline-block;}
+.dataservice2{width: 100%; min-width: 1190px; height: 450px!important; background: url("../guanwangimg/ch/dataservice2.png") no-repeat center; display: inline-block;}
+
+.zixun{width: 100%;min-width: 1190px;height: 700px!important;background: url(../guanwangimg/zixun.png)  50%;display: inline-block;}
+.zixun_container {width:840px;margin:auto;}
+.indexicon{ width:26px; height: 26px;  display: inline-block; vertical-align: middle; position: absolute; z-index: 1; margin-top: 4px; left: 8px;}
+.company{background: url(../guanwangimg/company.png) no-repeat; width:28px; height: 28px; }
+.name{background: url(../guanwangimg/name.png) no-repeat; width:28px; height: 28px; margin-top: 5px; left: 22px;}
+.address{background: url(../guanwangimg/address.png) no-repeat; width:28px; height: 28px;margin-top: 5px; left: 22px; }
+.message{background: url(../guanwangimg/message.png) no-repeat; width:28px; height: 28px; }
+.indexphone{background: url(../guanwangimg/phone.png) no-repeat; width:28px; height: 28px; }
+.zixun-btn{padding: 3px 109px; font-size: 22px; letter-spacing: 5px;}
+
+
+.about-banner{width: 100%;min-width: 1190px;height: 523px!important;background: url(../guanwangimg/about-banner.jpg)  50%;display: inline-block;}
+.aboutbannerinf{background: url(../guanwangimg/aboutbg.jpg) no-repeat; height: 539px; width: 1136px; position: absolute; top: 0px; left: 62px;}
+.aboutnav{float: right; width:535px; text-align: left; padding-top: 40px; font-size: 16px;}
+.aboutnav .title{font-size: 22px; color: #333; font-weight: bold;}
+.aboutnav .title2{font-size: 16px; color: #000; padding-top: 60px;}
+.aboutnav .jieshao{line-height: 35px; padding-right: 50px; color: #333;text-align: justify; letter-spacing: 1px;}
+.aboutteam-w .aboutteam-f{display: none; cursor: pointer;}
+.aboutteam-w:hover .aboutteam-f{background: rgba(97, 160, 219, 10); height: 300px; color: #fff; position: absolute; bottom: 0px; padding: 15px; line-height: 27px; display: block; font-size: 16px;
+}
+.father {overflow: hidden; line-height: 27px; font-size: 16px; color: #fff;}
+.bk{background: rgba(97, 160, 219, 10); position: absolute; bottom: -286px; left: 0; transition: all 2s;padding: 15px; }
+.father:hover .bk{bottom:0px;}
+ 
+.aboutteambg{width: 100%;min-width: 1190px;height: 1030px!important;background: url(../guanwangimg/aboutteambg.png)  50%;display: inline-block;}
+.aboutteamwarp{background: #fff; border-radius: 10px; box-shadow: 0px 0px 5px 1px #a8a7a7; display: flex;}
+.aboutname{width: 220px; font-weight: bold; font-size: 28px; text-align: left; padding-top: 180px; color: #000; padding-left: 30px;}
+.aboutgrinf{width: 440px; margin-left: 70px; margin-top: 100px; line-height: 43px; font-size: 26px;color: #333; text-align: justify;}
+.aboutteaminf{height: 140px; overflow: hidden;background: #9ea0ac; color: #fff; font-size: 16px;  padding: 15px 30px;}
+.aboutwenhua{width: 100%;min-width: 1190px;height: 911px!important;background: url(../guanwangimg/aboutwenhua.png)  50%;display: inline-block;}
+
+.joinbanner{width: 100%;min-width: 1190px;height: 523px!important;background: url(../guanwangimg/joinbanner.jpg)  50%;display: inline-block;}
+.joinchoice{width: 100%;min-width: 1190px;height: 722px!important;background: url(../guanwangimg/joinchoice.png)  50%;display: inline-block;}
+.joinadv1{width: 100%;min-width: 1190px;height: 155px!important;background: url(../guanwangimg/joinadv1.png)  50%;display: inline-block;}
+.jointeam-block{bottom: 0px; position: absolute; width: 100%; height: 80px; background: rgba(97, 160, 219, 10); display: block!important; font-size: 16px; color: #fff; padding-top: 20px; padding-left: 20px;}
+.joinmap{width: 100%;min-width: 1190px;height: 804px!important;background: url(../guanwangimg/joinmap.jpg)  50%;display: inline-block;}
+
+.productbanner{width: 100%;min-width: 1190px;height: 340px!important;background: url(../guanwangimg/ch/productbanner.jpg)  50%;display: inline-block;}
+.productnav{background: #D9E8FF}
+.diamond{width: 10px; height: 10px; background-color: #999999; display: inline-table; transform:rotate(45deg); -ms-transform:rotate(45deg); /* Internet Explorer */   -moz-transform:rotate(45deg); /* Firefox */   -webkit-transform:rotate(45deg); /* Safari 和 Chrome */   -o-transform:rotate(45deg); /* Opera */     margin-top: 5px;
+    margin-right: 15px;}
+.productlist li{margin-top: 10px; font-size: 16px;letter-spacing: 2px;}
+.productlist li span{background: #255FD5;border-radius: 5px;padding: 8px 14px;color: #fff;width: 139px;margin: 10px;display: inline-block;letter-spacing: 0px; text-align: center;}
+
+
+.footerbg{width: 100%;min-width: 1190px;height: 527px!important;background: url(../guanwangimg/footerbg.png)  50%; display: inline-block; color: #fff}
+
+.yymessage{padding: 29px 61px; background: rgba(132, 132, 133, 0.9); position: relative; font-size: 17px; color: #fff; position: fixed; z-index: 1010; top: 150px;left: 36%; border-radius: 5px; pointer-events: none;}
+.ivu-icon-ios-email:before { content: "\F221";}
+
+.cnproductcenter1{width: 100%;min-width: 1190px;height: 523px!important;background: url(../guanwangimg/cn-productcenter1.jpg)  50%;display: inline-block;}
+.cnproductcenter2{width: 100%;min-width: 1190px;height: 596px!important;background: url(../guanwangimg/cn-productcenter2.png)  50%;display: inline-block;}
+.cnproductcenter3{width: 100%;min-width: 1190px;height: 882px!important;background: url(../guanwangimg/cn-productcenter3.png)  50%;display: inline-block;}
+.cnproductcenter4{width: 100%;min-width: 1190px;height: 499px!important;background: url(../guanwangimg/cn-productcenter4.png)  50%;display: inline-block;}
+.cnproductcenter5{width: 100%;min-width: 1190px;height: 499px!important;background: url(../guanwangimg/cn-productcenter5.png)  50%;display: inline-block;}
+.zsinf-warp{border:solid 2px #e9e9e9; border-top-left-radius: 8px;border-top-right-radius: 8px;height: 300px; border-top: none;}
+.zsinf-title{background: #daf0fe; height: 70px; line-height: 70px; text-align: center;-moz-box-shadow:0px -2px 2px #579dcf; -webkit-box-shadow:0px -2px 2px #579dcf; box-shadow:0px -2px 2px #579dcf;border-radius: 8px;font-size: 24px; letter-spacing: 5px; color: #363737}
+.zsinf-nav{padding: 50px 10px; line-height: 34px; font-size: 16px; color: #3e3e3e;}
+.prdouct-inf{font-size: 19px; font-weight: normal; padding-top: 10px;}
+.productlist{width: 100%;min-width: 1190px;height: 1155px!important;background: url(../guanwangimg/productlist.jpg)  50%;display: inline-block;}
+
+
+.focus{ position:relative; width:1190px; height:520px; float: left;}  
+.focus img{ width: 1190px; height: 520px;} 
+.focus .shadow .title{width: 260px; height: 65px;padding-left: 30px;padding-top: 20px;}
+.focus .shadow .title a{ text-decoration:none; color:#fff; font-size:14px; font-weight:bolder; overflow:hidden; }
+.focus .btn{ position:absolute; bottom:34px; left:510px; overflow:hidden; zoom:1;} 
+.focus .btn a{position:relative; display:inline; width:13px; height:13px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }  
+.focus .btn a:hover,.focus .btn a.current{  cursor:pointer;background:#fc114a;}  
+.focus .fPic{ position:absolute; left:0px; top:0px; }  
+.focus .D1fBt{ overflow:hidden; zoom:1;  height:16px; z-index:10;  }  
+.focus .shadow{ width:100%; position:absolute; bottom:0; left:0px; z-index:10; height:80px; line-height: 80px; background:rgba(0,0,0,0.6);    
+filter:progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#80000000',endColorstr = '#80000000')\9;  display:block;  text-align:left; }  
+.focus .shadow a{ text-decoration:none; color:#fff; font-size:20px; overflow:hidden; margin-left:10px; font-family: "\5FAE\8F6F\96C5\9ED1";}  
+/* .focus .fcon{ position:relative; width:100%; float:left;  display:none; background:none  }  
+.focus .fcon img{ display:block; }   */
+.focus .fbg{bottom:25px; right:40px; position:absolute; height:21px; text-align:center; z-index: 200; }  
+.focus .fbg div{margin:4px auto 0;overflow:hidden;zoom:1;height:14px}    
+.focus .D1fBt a{position:relative; display:inline; width:12px; height:12px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }    
+.focus .D1fBt .current,.focus .D1fBt a:hover{background:#1181fc;}    
+.focus .D1fBt img{display:none}    
+.focus .D1fBt i{display:none; font-style:normal; }    
+.focus .prev,.focus .next{position:absolute;width:40px;height:74px;background: url(../guanwangimg/focus_btn.png) no-repeat;}
+.focus .prev{top: 50%;margin-top: -37px; left: 0;background-position:0 -74px; cursor:pointer; }  
+.focus .next{top: 50%;margin-top: -37px; right: 0;  background-position:-40px -74px;  cursor:pointer;}  
+.focus .prev:hover{  background-position:0 0; }  
+.focus .next:hover{  background-position:-40px 0;}  
+
+
+
+
+
+
+.pcp1{width: 100%;min-width: 1190px;height: 607px!important;background: url(../guanwangimg/pcp1.png)  50%;display: inline-block;}
+.pcp2{width: 100%;min-width: 1190px;height: 748px!important;background: url(../guanwangimg/pcp2.png)  50%;display: inline-block;}
+.pcp3{width: 100%;min-width: 1190px;height: 708px!important;background: url(../guanwangimg/pcp3.png)  50%;display: inline-block;}
+.pcp4{width: 100%;min-width: 1190px;height: 745px!important;background: url(../guanwangimg/pcp4.png)  50%;display: inline-block;}
+.pcp5{width: 100%;min-width: 1190px;height: 273px!important;background: url(../guanwangimg/pcp5.png)  50%;display: inline-block;}
+.productmore{width: 100%;min-width: 1190px;height: 95px!important;background: url(../guanwangimg/productmore.png)  50%;display: inline-block;}
+
+.serve2-1{width: 100%; min-width: 1190px; height: 155px!important; background: url("../guanwangimg/serve2-1.png") no-repeat center; display: inline-block;}
+.serve3-1{width: 100%; min-width: 1190px; height: 767px!important; background: url("../guanwangimg/serve3-1.png") no-repeat center; display: inline-block;}
+.serve4-1{width: 100%; min-width: 1190px; height: 382px!important; background: url("../guanwangimg/serve4-1.png") no-repeat center; display: inline-block;}
+.serve5-1{width: 100%; min-width: 1190px; height: 545px!important; background: url("../guanwangimg/serve5-1.png") no-repeat center; display: inline-block;}
+
+.newbanner{width: 100%;min-width: 1190px;height: 523px!important;background: url(../guanwangimg/newbanner.jpg)  50%;display: inline-block;}
+.cn-newcenter{width: 100%;min-width: 1190px;}
+.about-right{float: right;width: 900px;}
+.about-right-title{font-size: 38px;color: #000;position: relative;padding-bottom: 20px;text-align: center;letter-spacing: 5px;}
+/* .about-right-title:after{border-bottom: solid 3px #3671f3; content: ""; position: absolute; width: 100px; bottom: -2px; left: 0px;} */
+.about-inf p{text-indent: 4%; font-size: 16px; line-height: 40px;}
+.honor-list li{float: left; width: 250px; margin:20px;}
+.honor-list li p{font-size: 14px; margin-top: 10px;}
+.pay-list li{background: url(../img/about/logo_gray.png) no-repeat right 10px top 10px; border:solid 1px #e3e3e3;float: left; width: 270px; margin:15px; padding-bottom: 20px;}
+.contact-left{width: 580px;}
+.contact-right{width: 280px; line-height: 30px;}
+.news_item { border-bottom: solid 1px #f2f2f2; margin-top: 25px!important; padding-bottom: 25px;}
+.news_item:last-child { border-bottom: none;}
+.news_item_title a{text-decoration: none; color: #333;}
+.news_item_title a:hover{text-decoration: none; color: #1e97ff;}
+.news_pic_box,.news_pic_box img {width: 200px; height: 130px}
+.about-nav-title{font-size: 24px; color: #333; border-bottom: dashed 1px #a2a2a2; padding-bottom: 10px;}
+.news_item {margin:auto;background:#fff;border-bottom:1px solid #f1f1f1;position:relative}
+.newslist_box {margin-top:30px}
+.news_title_box {width:990px;padding-left:30px}
+.news_item_title {color:#333;font-size:18px}
+.news_item_des {color:#999;font-size:14px;line-height:30px;margin-top:10px}
+.author_name {color:#bbb;font-size:14px;margin-top:30px}
+.author_box .ico_right {width:40px;height:40px;border:1px solid #f7f7f7;border-radius:50px;line-height:40px;font-size:14px;text-align:center;color:#9b9b9b;float:right;margin-top:35px;transition:background 1s;-moz-transition:background 1s;-webkit-transition:background 1s;-o-transition:background 1s}
+.news_item:hover .author_box .ico_right {box-shadow:0 5px 5px rgba(255,106,109,.3);background:linear-gradient(90deg,#ff5940,#f04d77);border:none;color:#fff}
+.news_detail_content {margin:auto;margin-top:30px;min-height:200px;height:auto;margin-bottom:40px}
+.news_detail_left {width:880px;padding:30px 60px 45px;background:#fff}
+.news_detail_title {color:#333;font-size:20px}
+.news_detail_author {color:#bbb;font-size:14px;margin-top:10px}
+.news_detail_item {color:#666;font-size:14px;line-height:28px;margin-bottom:30px}
+.news_detail_img {margin-top:20px}
+.news_detail_img,.news_detail_img img {width:760px;height:400px}
+.news_detail_right {width:280px}
+.news_detail_right_title {height:50px;padding-bottom:14px;padding-top:14px;padding-left:30px;background:#fafafa;font-size:16px;color:#333}
+.tuijian_ietm {width:280px;background:#fff;padding:26px 30px}
+.tuijian_title {font-size:14px;color:#333}
+.tuijian_title:hover {color:#e9615a}
+.tuijian_title:hover span {border-bottom:1px solid #e9615a;cursor:pointer}
+.tuijian_des {margin-top:10px;line-height:30px;font-size:12px;color:#999;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2}
+.ant-form-item-label label,.ant-input {font-size:14px}
+.ip_peizhi .ant-table-placeholder span {margin-left:0}
+.gudong_photo {width:226px;height:80px;position:absolute;left:80px;bottom:0;top:0;margin:auto}
+.gudong_one {background:url(/images/gudong_one.png) no-repeat 50%}
+.gudong_two {background:url(/images/gudong_two.png) no-repeat;width:224px}
+.gudong_three {background:url(/images/gudong_three.png) no-repeat 50%}
+.gudong_four {background:url(/images/gudong_four.png) no-repeat 50%}
+.gudong_item {height:240px}
+
+.new-inf img{width: auto;}
+
+
+/**en***/
+.enindexbanner{width: 100%; min-width: 1190px; height: 570px!important; background: url("../guanwangimg/en/banner.png") no-repeat center; display: inline-block;}
+.entfteam_01{width: 100%;min-width: 1190px;height: 580px!important;background: url(../guanwangimg/en/tfteam_01.png) no-repeat 50%;display: inline-block; margin-top: 100px;}
+.endmp_01{width: 100%;min-width: 1190px;height: 500px!important;background: url(../guanwangimg/en/dmp_01.png) no-repeat 50%;display: inline-block; }
+.enservicbanner{width: 100%; min-width: 1190px; height: 419px!important; background: url("../guanwangimg/en/servicbanner.jpg") no-repeat center; display: inline-block;}
+.enservice1{width: 100%; min-width: 1190px; height: 450px!important; background: url("../guanwangimg/en/service1.png") no-repeat center; display: inline-block;}
+.enservice2{width: 100%; min-width: 1190px; height: 450px!important; background: url("../guanwangimg/en/service2.png") no-repeat center; display: inline-block;}
+.endataservice1{width: 100%; min-width: 1190px; height: 450px!important; background: url("../guanwangimg/en/dataservice1.png") no-repeat center; display: inline-block;}
+.endataservice2{width: 100%; min-width: 1190px; height: 450px!important; background: url("../guanwangimg/en/dataservice2.png") no-repeat center; display: inline-block;}
+.endataservicebanner{width: 100%; min-width: 1190px; height: 340px!important; background: url("../guanwangimg/en/dataservicebanner.jpg") no-repeat center; display: inline-block;}
+
+#head_list{border-bottom: solid 1px #f2f2f2}
+#head_list span{float:left; width:120px; cursor: pointer; text-align: center; font-size: 16px; line-height: 50px; }
+#head_list .active{color: #3671f3; position: relative;}
+#head_list .active:after{ border-bottom: solid 3px #3671f3; content: ""; width: 50px; position: absolute; left: 33px; top: 47px;}
+.index-tab-left{width: 490px; float: left;}
+.index-tab-right{width:590px; float: right;}
+.index-tab-right a{color: #333; line-height: 40px;}
+.index-tab-right a:hover{color: #3671f3;}
+.index-tab-right ul li{border-bottom: dashed 1px #e3e3e3; font-size: 14px;}
+.index-tab-right ul li span{float: right;}
+.footer-link{color: #999; margin-top: 15px;}
+.footer-link a{color: #999; margin:0px 10px;}
